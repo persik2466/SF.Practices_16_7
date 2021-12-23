@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SF.Practices_16_7
 {
@@ -31,5 +27,4 @@ namespace SF.Practices_16_7
             return a / b;
         }
     }
-
 }

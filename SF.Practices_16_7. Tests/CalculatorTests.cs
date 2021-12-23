@@ -1,12 +1,11 @@
 ﻿using NUnit.Framework;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SF.Practices_16_7.Tests
 {
+    /// <summary>
+    /// Класс модульного теста
+    /// </summary>
     [TestFixture]
     public class CalculatorTests
     {
@@ -44,7 +43,5 @@ namespace SF.Practices_16_7.Tests
             var calculator = new Calculator();
             Assert.Throws<DivideByZeroException>(() => calculator.Division(30, 0));
         }
-
     }
-
 }
